@@ -1,0 +1,3 @@
+﻿  NotSoMobile.cpp
+C:\Users\Flugan\source\repos\NotSoMobile\NotSoMobile\NotSoMobile.cpp(13,21): warning C4101: 'value': unreferenced local variable
+  NotSoMobile.vcxproj -> C:\Users\Flugan\source\repos\NotSoMobile\Debug\NotSoMobile.exe

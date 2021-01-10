@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Othello FX Edu/src"/>
+	<classpathentry kind="lib" path="OthelloFX Demo_lib/org.eclipse.fx.ide.css.jfx8_2.4.0.201605112122.jar"/>
+	<classpathentry kind="lib" path="OthelloFX Demo.jar"/>
+	<classpathentry kind="output" path="Othello FX Edu/src"/>
+</classpath>

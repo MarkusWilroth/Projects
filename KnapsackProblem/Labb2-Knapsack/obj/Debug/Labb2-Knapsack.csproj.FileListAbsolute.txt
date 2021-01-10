@@ -1,0 +1,14 @@
+C:\Users\Flugan\source\repos\Labb2-Knapsack\Labb2-Knapsack\obj\Debug\Labb2-Knapsack.csprojAssemblyReference.cache
+C:\Users\Flugan\source\repos\Labb2-Knapsack\Labb2-Knapsack\obj\Debug\Labb2-Knapsack.csproj.CoreCompileInputs.cache
+C:\Users\Flugan\source\repos\Labb2-Knapsack\Labb2-Knapsack\bin\Debug\Labb2-Knapsack.exe.config
+C:\Users\Flugan\source\repos\Labb2-Knapsack\Labb2-Knapsack\bin\Debug\Labb2-Knapsack.exe
+C:\Users\Flugan\source\repos\Labb2-Knapsack\Labb2-Knapsack\bin\Debug\Labb2-Knapsack.pdb
+C:\Users\Flugan\source\repos\Labb2-Knapsack\Labb2-Knapsack\obj\Debug\Labb2-Knapsack.exe
+C:\Users\Flugan\source\repos\Labb2-Knapsack\Labb2-Knapsack\obj\Debug\Labb2-Knapsack.pdb
+C:\Users\Flugan\AILabbar\Labb2-Knapsack\Labb2-Knapsack\bin\Debug\Labb2-Knapsack.exe.config
+C:\Users\Flugan\AILabbar\Labb2-Knapsack\Labb2-Knapsack\bin\Debug\Labb2-Knapsack.exe
+C:\Users\Flugan\AILabbar\Labb2-Knapsack\Labb2-Knapsack\bin\Debug\Labb2-Knapsack.pdb
+C:\Users\Flugan\AILabbar\Labb2-Knapsack\Labb2-Knapsack\obj\Debug\Labb2-Knapsack.csprojAssemblyReference.cache
+C:\Users\Flugan\AILabbar\Labb2-Knapsack\Labb2-Knapsack\obj\Debug\Labb2-Knapsack.csproj.CoreCompileInputs.cache
+C:\Users\Flugan\AILabbar\Labb2-Knapsack\Labb2-Knapsack\obj\Debug\Labb2-Knapsack.exe
+C:\Users\Flugan\AILabbar\Labb2-Knapsack\Labb2-Knapsack\obj\Debug\Labb2-Knapsack.pdb
