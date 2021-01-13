@@ -7,11 +7,11 @@ The Projects:
 More info about this code can be found in the PDF "Friends" That exists in the folder "Friends"
 
 - HumanitysLastChapter (C#)
-A game that me and four others developed in about five months. I have learned a lot from this project
-as we faced many problems. We had to few meetings and some in the group didn't have the same passion
-for the project and didn't put in so much time that was needed. Yo can read more about what I did and
-my thoughts about this project in the PDF "Individual Reflection" that exists in the folder
-"HumanitysLastChapter"
+This was one of my larger projects. The project was in the form of a game that I and four others developed.
+I learned a lot from our many mistakes about how to succeed with a bigger project, especially how to
+work with coordinations, Scrum and multiple important documents. You can read more about what I did in
+the project and my thoughts about the development in the PDF "Individual Reflection" that exists in the
+folder "HumaniytsLastChapter".
 
 - KnapsackProblem (C#)
 Solved the knapsackproblem with a greedy algorithm and with Neighbour Search

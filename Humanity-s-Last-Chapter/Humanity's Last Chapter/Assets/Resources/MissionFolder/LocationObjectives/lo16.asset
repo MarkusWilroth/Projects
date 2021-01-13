@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06598a3f64e05014ba45ad20c896df02, type: 3}
+  m_Name: lo16
+  m_EditorClassIdentifier: 
+  titel: return before more enemies comes
+  description: go back
+  id: t.ex. lo0
+  locationPos: {fileID: 7948302374238168062, guid: 241dc2dfc9d0731459416a58b6d7cf92,
+    type: 3}
+  Location: {fileID: 6155811885891423954, guid: 241dc2dfc9d0731459416a58b6d7cf92,
+    type: 3}
+  clearOutTarget: []
+  isComlete: 0
+  isBonus: 0
+  spawnLo: 0
+  startEvents: []
+  endEvents: []

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90252cbfb3ca9dd4f81777c952bef8e4, type: 3}
+  m_Name: co16
+  m_EditorClassIdentifier: 
+  verb: Kill
+  description: This must be a joke, it's back again?
+  collectionAmount: 1
+  currentAmount: 0
+  isComplete: 0
+  isBonus: 0
+  isRandomSpawn: 0
+  itemsToCollect: {fileID: 4238669593420774110, guid: 08c209d3dc1276b47b9127e0de6e1613,
+    type: 3}
+  spawnPos:
+  - {fileID: 8441431556315283445, guid: 8b44a6b0ea60b77459aac1960ca5af73, type: 3}
+  startEvents: []
+  endEvents: []

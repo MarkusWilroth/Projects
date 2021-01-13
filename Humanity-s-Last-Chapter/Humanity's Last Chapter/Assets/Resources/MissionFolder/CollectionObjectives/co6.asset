@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90252cbfb3ca9dd4f81777c952bef8e4, type: 3}
+  m_Name: co6
+  m_EditorClassIdentifier: 
+  verb: A trap!?!?!?
+  description: Take the Spitters down!
+  collectionAmount: 2
+  currentAmount: 0
+  isComplete: 0
+  isBonus: 0
+  isRandomSpawn: 0
+  itemsToCollect: {fileID: 7146514785514354983, guid: 1bedd59abca17f64cad4cb6f2343ae94,
+    type: 3}
+  spawnPos:
+  - {fileID: 1807139304922684570, guid: 50c585e6a6fb7a944876bef39d2aa441, type: 3}
+  - {fileID: 1700603608528022132, guid: c17ea03c5e9af5844b3e121aa7e30a29, type: 3}
+  - {fileID: 7707914080382850217, guid: fecc7e26800c7f34abf1190536463c1f, type: 3}
+  - {fileID: 5883105887511359610, guid: 5dfcff349a46e2b42a10552311fca3f7, type: 3}
+  startEvents: []
+  endEvents: []

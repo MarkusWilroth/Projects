@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01491bd84ec5fa54baaf881e5f1165b6, type: 3}
+  m_Name: we1
+  m_EditorClassIdentifier: 
+  WaveInfo: Sprinter Wave at drop zone 1
+  spawnPosArr:
+  - {fileID: 6081717972478600145, guid: 8874767a75d49a248a6686b5a28ee617, type: 3}
+  - {fileID: 4959364557625312877, guid: 86c4b77928373814a8bf5a4ba3962b4e, type: 3}
+  - {fileID: 1235070036092473632, guid: 06e9006afd399874f9f229b71275d04b, type: 3}
+  - {fileID: 5978552546341452215, guid: 6d7c9a3ec7c6e1f43aa53713b79c7d21, type: 3}
+  prefab: {fileID: 7354675053654000930, guid: 2982904dbaaa39443b4782a856815cb9, type: 3}
+  isTimerBased: 1
+  spawnRate: 3
+  waveDuration: 20
+  enemiesAmmount: 0

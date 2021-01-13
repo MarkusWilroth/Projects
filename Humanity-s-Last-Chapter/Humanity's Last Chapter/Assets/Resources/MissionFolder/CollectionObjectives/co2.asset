@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90252cbfb3ca9dd4f81777c952bef8e4, type: 3}
+  m_Name: co2
+  m_EditorClassIdentifier: 
+  verb: Eliminate the threat
+  description: The target are three monsters of the type "Spitters". Be aware! They
+    are known to have ranged attacks. Kill them and claim the reward.
+  collectionAmount: 3
+  currentAmount: 0
+  isComplete: 0
+  isBonus: 0
+  isRandomSpawn: 0
+  itemsToCollect: {fileID: 7146514785514354983, guid: 1bedd59abca17f64cad4cb6f2343ae94,
+    type: 3}
+  spawnPos:
+  - {fileID: 6033822078249149396, guid: 4cdff81c82edb934c9df65d79b73cdfb, type: 3}
+  - {fileID: 8805271429098119710, guid: 81f62d1bd3ba57b46a3dd7b03e03913a, type: 3}
+  - {fileID: 173693989538821880, guid: 03ed4c23997e87847ac2da1d7a9af503, type: 3}
+  startEvents: []
+  endEvents: []

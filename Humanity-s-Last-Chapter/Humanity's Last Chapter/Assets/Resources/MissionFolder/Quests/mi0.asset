@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b739a0e2429aaa4e99097977f6a75aa, type: 3}
+  m_Name: mi0
+  m_EditorClassIdentifier: 
+  missionName: Contact With a Survivor (Easy)
+  description: A signal from the town has been seen. If the source can be found, perhaps
+    some information about the situation can be aquired.
+  missionMap: 1
+  nextMissionsComplete:
+  - {fileID: 11400000, guid: 02921ba211bd25442b39d463d151f9e0, type: 2}
+  nextMissionsFail: []
+  goldReward: 150
+  rsReward: 0
+  supplies: 0
+  completed: 0
+  isSale: 0
+  objectives:
+  - {fileID: 11400000, guid: 3918d2ef6d44dc34a960a465090e2e5d, type: 2}
+  - {fileID: 11400000, guid: 3fd2c47bd7874154cac89ab04c019cb5, type: 2}
+  - {fileID: 11400000, guid: aaf11d48cf6b37d4cb694b5136f7589d, type: 2}
+  - {fileID: 11400000, guid: 5a6f8c6a7df11f742bd9ef73383aa95a, type: 2}
+  startEvents:
+  - {fileID: 11400000, guid: 9210a67b66f2bf843bf28c53a68c97ea, type: 2}
+  endEvents: []

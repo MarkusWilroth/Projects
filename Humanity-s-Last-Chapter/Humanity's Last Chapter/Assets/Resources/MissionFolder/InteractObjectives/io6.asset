@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56457c48b8671fb4bad3e70584dc33b4, type: 3}
+  m_Name: io6
+  m_EditorClassIdentifier: 
+  title: save the civilians
+  verb: thank you
+  id: qg0
+  description: It must have been that guy that made the distress call!
+  spawnPos: {fileID: 7433209466029276349, guid: 0094d4a8ddcbea548a731abcb952998d,
+    type: 3}
+  isComplete: 0
+  isBonus: 0
+  isSpawned: 1
+  isRemoved: 0
+  interactObjective: {fileID: 2407351559326671946, guid: 6412193273550f04c9bb6d181cdc55c0,
+    type: 3}
+  startEvents:
+  - {fileID: 11400000, guid: 447452ccbff885146adbb6ba25298e20, type: 2}
+  endEvents: []

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ca956dcf6f15b942b45f56ac7395f1e, type: 3}
+  m_Name: qu34
+  m_EditorClassIdentifier: 
+  quirkName: Left Arm - Heavy Wound
+  quirkDescription: 'This arm is more or less usless '
+  hp: -4
+  str: -6
+  def: -6
+  Int: 0
+  dex: -6
+  cha: 0
+  ldr: 0
+  nrg: 0
+  snt: -20
+  quirkPair: []
+  quirkLevel: 4
+  quirkType: 2
+  bodyPart: 3

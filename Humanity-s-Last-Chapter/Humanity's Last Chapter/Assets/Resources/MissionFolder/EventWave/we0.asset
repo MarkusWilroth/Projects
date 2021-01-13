@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01491bd84ec5fa54baaf881e5f1165b6, type: 3}
+  m_Name: we0
+  m_EditorClassIdentifier: 
+  WaveInfo: 'Fyller Missionmap1 '
+  spawnPosArr:
+  - {fileID: 6063382750004415654, guid: 9730cedb99df85a49a073e9770c7faa1, type: 3}
+  - {fileID: 3782376440984684182, guid: 221fa8f5fc1760e4884923a5b3b7f0eb, type: 3}
+  - {fileID: 3782376440984684182, guid: 221fa8f5fc1760e4884923a5b3b7f0eb, type: 3}
+  - {fileID: 1723464163768333921, guid: 8b582b2b89e6a144ab31de671da8a3f8, type: 3}
+  - {fileID: 8985247812892840510, guid: 23a51dacaf3760b4a815f9d49a4e608e, type: 3}
+  - {fileID: 1678608515540421983, guid: 4d7bee2da54ab5c4fa728aa413413288, type: 3}
+  - {fileID: 7246849940219011798, guid: 3e17971af0db7644abbab92ac075ea56, type: 3}
+  - {fileID: 680207884748983832, guid: dd00f544ac2446f44989140adf1ddd4d, type: 3}
+  - {fileID: 6361498957056337260, guid: a33576d27e54dca4a868df155ebc8b4a, type: 3}
+  - {fileID: 2273377378716192714, guid: b6d758128d844ad45853bdabc934a973, type: 3}
+  - {fileID: 3695886986452710852, guid: 76c08babb9e805c4693d832aa71dee3f, type: 3}
+  - {fileID: 6000608569985863865, guid: 06f4fd2c1f962244995318951a4a2a40, type: 3}
+  - {fileID: 143305084951715475, guid: 02447d710dfce1e47b530735023932fb, type: 3}
+  - {fileID: 694356040111798224, guid: 6dbeca937f023fb449f074793f6d7947, type: 3}
+  - {fileID: 503508855315144886, guid: 397b809fb68247840a271a9138d88efd, type: 3}
+  - {fileID: 4793070897288259096, guid: 71b97156fb512a24dbde80200235d074, type: 3}
+  - {fileID: 7648273166549832617, guid: 5f239ea06f4888c4faf0c8e80be316a5, type: 3}
+  - {fileID: 6338916994903901177, guid: 32a38e0b50eb9ae4f9bdc35ba3fd3904, type: 3}
+  - {fileID: 7389908966774028413, guid: 664e17bb64ccaae4aa8ea73595b7343b, type: 3}
+  - {fileID: 966367887264413249, guid: 67215994067b73b4c9a1d5d9e7c361af, type: 3}
+  - {fileID: 3215872999159232531, guid: cd5976f4ac24f1f47a5a792a6304f8b0, type: 3}
+  - {fileID: 1209726552976253989, guid: 8e217ab8cb47d554ea51a8fbead3ff17, type: 3}
+  - {fileID: 4146174082549689635, guid: f24c67fe83f69484fb8b5aa929d037d4, type: 3}
+  prefab: {fileID: 4090975341072565159, guid: ecf8ee21bade51a48891cccceee6b009, type: 3}
+  isRandomSpawn: 1
+  isTimerBased: 0
+  spawnRate: 0
+  waveDuration: 0
+  enemiesAmmount: 12

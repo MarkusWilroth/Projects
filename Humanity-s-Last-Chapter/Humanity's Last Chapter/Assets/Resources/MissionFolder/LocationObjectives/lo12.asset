@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06598a3f64e05014ba45ad20c896df02, type: 3}
+  m_Name: lo12
+  m_EditorClassIdentifier: 
+  titel: Get to the drop zone
+  description: The signal comes from coordinates 0306, left center of the map.
+  id: t.ex. lo0
+  locationPos: {fileID: 6341353548472390159, guid: 77babe9688188fa4e86c216855370c95,
+    type: 3}
+  Location: {fileID: 8441094515699837540, guid: 425b1f43c18db7f4c9f05c2632b9750d,
+    type: 3}
+  clearOutTarget: []
+  isComlete: 0
+  isBonus: 0
+  spawnLo: 1
+  startEvents: []
+  endEvents:
+  - {fileID: 11400000, guid: 077fe8cd2445dd94db6463c6c87ccc74, type: 2}
+  - {fileID: 11400000, guid: 4d8b0f8934abc9e4c93a15c0ceaef412, type: 2}
+  - {fileID: 11400000, guid: 0364fd10a0bdcbe41bf477b8b62817ef, type: 2}

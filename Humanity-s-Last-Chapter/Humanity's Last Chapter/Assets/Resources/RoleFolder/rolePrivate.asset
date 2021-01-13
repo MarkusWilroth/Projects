@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 160d6ec47a9b0e0498fd3199089cd90c, type: 3}
+  m_Name: rolePrivate
+  m_EditorClassIdentifier: 
+  roleCategory: 1
+  portraitBackground: {fileID: 21300000, guid: e98a3fcb12c5f834192b64b5ea7a9f64, type: 3}
+  roleName: Privat
+  title: 'Pvt. '
+  desc: Trained and ready to defend the community! Privates are armed and ready to
+    be the front line of defence and with the extra STRENGTH will enemies have trouble
+    taking them down!
+  roleRank: 1
+  maxHp: 0
+  def: 3
+  dex: 1

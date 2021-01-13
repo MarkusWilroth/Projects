@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06598a3f64e05014ba45ad20c896df02, type: 3}
+  m_Name: lo0
+  m_EditorClassIdentifier: 
+  titel: Enter the house to the right!
+  description: Enter the house
+  id: l0
+  locationPos: {fileID: 7971577642530205801, guid: 0058e21c43193774e9b7e6c5d86e28fc,
+    type: 3}
+  Location: {fileID: 7971577642593276465, guid: 0058e21c43193774e9b7e6c5d86e28fc,
+    type: 3}
+  clearOutTarget: []
+  isComlete: 0
+  isBonus: 0
+  spawnLo: 1
+  startEvents: []
+  endEvents: []

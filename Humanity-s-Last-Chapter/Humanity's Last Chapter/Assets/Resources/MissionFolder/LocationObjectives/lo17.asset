@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06598a3f64e05014ba45ad20c896df02, type: 3}
+  m_Name: lo17
+  m_EditorClassIdentifier: 
+  titel: we need to get out of town
+  description: the street that is nord east of town (upper right corner)
+  id: t.ex. lo0
+  locationPos: {fileID: 4589153207160398579, guid: 219e035fa22578c41a9eb748379049be,
+    type: 3}
+  Location: {fileID: 327687627221258207, guid: 219e035fa22578c41a9eb748379049be, type: 3}
+  clearOutTarget: []
+  isComlete: 0
+  isBonus: 0
+  spawnLo: 0
+  startEvents:
+  - {fileID: 11400000, guid: fd237bb8b8414d34e8351ca434db56db, type: 2}
+  - {fileID: 11400000, guid: 447452ccbff885146adbb6ba25298e20, type: 2}
+  endEvents: []

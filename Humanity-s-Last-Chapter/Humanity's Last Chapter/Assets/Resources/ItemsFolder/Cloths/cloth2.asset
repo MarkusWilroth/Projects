@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c74897974057d054caa3febebaef8137, type: 3}
+  m_Name: cloth2
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: eee8aec09dad30946a5f9d0833bcb5f5, type: 3}
+  portrait: {fileID: 21300000, guid: 53061e89bd0c6874d8e9f0722be36621, type: 3}
+  itemName: Red Uniform
+  description: A uniform used by the marine
+  cost: 120
+  clothType: 1
+  clothCategory: 1
+  maxHp: 0
+  str: 0
+  def: 2
+  Int: 0
+  dex: 0
+  cha: 0
+  ldr: 5
+  nrg: 0
+  snt: 0

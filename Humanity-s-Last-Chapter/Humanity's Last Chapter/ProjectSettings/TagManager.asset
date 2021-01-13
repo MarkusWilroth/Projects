@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Building
+  - Character
+  - Item
+  - CharacterUiInMissionMapCusImStupid
+  - ItemGrid
+  - TextItemDescrip
+  - TextItemName
+  - Enemy
+  - AbilitySlot
+  - ForRole
+  - CharacterSlot
+  - EnlistList
+  - ForItemStorage
+  - PartyView
+  - ForStoreStorage
+  - LoadManager
+  - CharacterManager
+  - Controller
+  - CharacterWindow
+  - role
+  - UICharacterRole
+  - StoreSlot
+  - ItemSlot
+  - StorageMoveParent
+  - ClothSlot
+  - WeaponSlot
+  - InventorySlot
+  - forSaves
+  - FuckingFindThisPieceOfShitPlease
+  - QuestStarted
+  - Waypoint
+  - ObjectiveStarted
+  - QuestGiver
+  - Location
+  - ActiveCharacter
+  - HospitalSlot
+  - Glow
+  - ForMission
+  - ForActiveQuest
+  - QuestDesc
+  - AlliedFaction
+  - NeutralFaction
+  - EnemyFaction
+  - UI
+  - Mask
+  - Loot
+  - StorageItemSlot
+  - FormationUiItem
+  - CharacterHolder
+  - HatSlot
+  - MeleeSlot
+  - HealSlot
+  - WindowManager
+  - Marker
+  - CombatSlot
+  - HospitalBuilding
+  - UIHospitalCharacter
+  - Hub
+  - PlayMenu
+  - BtnContinue
+  - BtnLoad
+  - CoinBox
+  - LootFeed
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PCLayer
+  - Walls
+  - Feet?
+  - Minimap
+  - Blood
+  - Enemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - NPC
+  - 
+  - 
+  - 
+  - 
+  - Marker
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 2684328627
+    locked: 0
+  - name: StationaryObjects
+    uniqueID: 2955432065
+    locked: 0
+  - name: MovingObjects
+    uniqueID: 3140514397
+    locked: 0
+  - name: Walls
+    uniqueID: 3285008397
+    locked: 0

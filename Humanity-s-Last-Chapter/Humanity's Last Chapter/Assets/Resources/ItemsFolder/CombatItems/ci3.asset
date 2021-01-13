@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51030d96f20984e44834efb9f33e1d02, type: 3}
+  m_Name: ci3
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: de3a3fec5c42678459fe7c230c93e7b5, type: 3}
+  sprite: {fileID: 21300000, guid: de3a3fec5c42678459fe7c230c93e7b5, type: 3}
+  rangeThingy: {fileID: 21300000, guid: 216ed7fd64ea927419f0ddbb3bd4e0e8, type: 3}
+  itemName: MKV Grenade
+  description: Toss it on your foes, there she blows!
+  cost: 50
+  coolDownTimer: 30
+  placeRange: 6
+  damage: 40
+  aoe: 4
+  abilityType: 1
+  combatType: 1
+  attachedWeapon: {fileID: 0}
+  AttachedAbility: {fileID: 1248578579405061495, guid: 1018b2abd21f8104386c461bc159aef4,
+    type: 3}

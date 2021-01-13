@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ca956dcf6f15b942b45f56ac7395f1e, type: 3}
+  m_Name: qu5
+  m_EditorClassIdentifier: 
+  quirkName: True Rage
+  quirkDescription: I will hurt anyone in my way!!!
+  hp: 7
+  def: 1
+  dex: -6
+  quirkPair:
+  - {fileID: 11400000, guid: 365b8437868592747837d5e819887ebc, type: 2}
+  quirkLevel: 0
+  quirkType: 0
+  bodyPart: 0

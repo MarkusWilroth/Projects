@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b739a0e2429aaa4e99097977f6a75aa, type: 3}
+  m_Name: mi9
+  m_EditorClassIdentifier: 
+  missionName: there are people we need to save *FUNKAR INTE*
+  description: with the new threat
+  missionMap: 1
+  nextMissionsComplete: []
+  nextMissionsFail: []
+  goldReward: 1000
+  rsReward: 0
+  supplies: 0
+  completed: 0
+  isSale: 0
+  objectives:
+  - {fileID: 11400000, guid: 40d35c544ef19b84a838705ee1586611, type: 2}
+  - {fileID: 11400000, guid: f0c91d92fcfa04a4dbd5ba0fcd790216, type: 2}
+  - {fileID: 11400000, guid: 9dc25abe2a81d694e9368c2aa54ce1c1, type: 2}
+  - {fileID: 11400000, guid: d4f210ac96ebd64449eb6721fb21cbbc, type: 2}
+  - {fileID: 11400000, guid: eac484d613422c64c9ac646e3ccfb89e, type: 2}
+  - {fileID: 11400000, guid: 3da334a74f722ed4992ced1ae8b2b795, type: 2}
+  startEvents:
+  - {fileID: 11400000, guid: fd237bb8b8414d34e8351ca434db56db, type: 2}
+  - {fileID: 11400000, guid: fd237bb8b8414d34e8351ca434db56db, type: 2}
+  - {fileID: 11400000, guid: 447452ccbff885146adbb6ba25298e20, type: 2}
+  - {fileID: 11400000, guid: 447452ccbff885146adbb6ba25298e20, type: 2}
+  endEvents: []

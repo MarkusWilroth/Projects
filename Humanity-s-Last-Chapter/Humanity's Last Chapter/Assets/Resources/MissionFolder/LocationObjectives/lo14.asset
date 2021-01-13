@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06598a3f64e05014ba45ad20c896df02, type: 3}
+  m_Name: lo14
+  m_EditorClassIdentifier: 
+  titel: Return to the landing zone
+  description: Head back to the marked area
+  id: t.ex. lo0
+  locationPos: {fileID: 3939163579847472891, guid: 281051de428ed4344a55c8278818b695,
+    type: 3}
+  Location: {fileID: 8441094515699837540, guid: 425b1f43c18db7f4c9f05c2632b9750d,
+    type: 3}
+  clearOutTarget: []
+  isComlete: 0
+  isBonus: 0
+  spawnLo: 1
+  startEvents:
+  - {fileID: 11400000, guid: 0364fd10a0bdcbe41bf477b8b62817ef, type: 2}
+  endEvents: []
