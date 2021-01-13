@@ -24,3 +24,7 @@ More info about this code can be found in the PDF "NotSoMobile" That exists in t
 
 - Orthello (Java)
 Created a MinMax algorithm to play orthello
+
+Contact Information:
+LinkedIn: https://www.linkedin.com/in/MarkusWilroth/
+Email: Markus.Wilroth2@gmail.com
