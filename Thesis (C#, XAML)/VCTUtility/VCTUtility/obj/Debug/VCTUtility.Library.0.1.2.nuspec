@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>VCTUtility.Library</id>
+    <version>0.1.2</version>
+    <authors>Markus Wilroth &amp; Jasmine Steen</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <description>Contains the Extractor and Network to create and use Voice Commands.</description>
+    <releaseNotes>Added all .NetFrameworks?</releaseNotes>
+    <copyright>2021</copyright>
+    <tags>MFCC ANN</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="FFTW.NET" version="1.0.1" exclude="Build,Analyzers" />
+        <dependency id="MathNet.Numerics" version="4.15.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Marku\OneDrive\Documents\GitHub\Ex-VoiceCon\VCTUtility\VCTUtility\bin\Debug\netstandard2.1\VCTUtility.dll" target="lib\netstandard2.1\VCTUtility.dll" />
+  </files>
+</package>

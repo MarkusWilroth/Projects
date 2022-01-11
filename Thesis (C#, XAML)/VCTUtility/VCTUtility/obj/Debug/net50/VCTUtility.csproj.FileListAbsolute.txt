@@ -1,0 +1,14 @@
+C:\Users\Marku\OneDrive\Documents\GitHub\Ex-VoiceCon\VCTUtility\VCTUtility\bin\Debug\net50\libfftw3-3-x64.dll
+C:\Users\Marku\OneDrive\Documents\GitHub\Ex-VoiceCon\VCTUtility\VCTUtility\bin\Debug\net50\libfftw3-3-x86.dll
+C:\Users\Marku\OneDrive\Documents\GitHub\Ex-VoiceCon\VCTUtility\VCTUtility\bin\Debug\net50\VCTUtility.deps.json
+C:\Users\Marku\OneDrive\Documents\GitHub\Ex-VoiceCon\VCTUtility\VCTUtility\bin\Debug\net50\VCTUtility.dll
+C:\Users\Marku\OneDrive\Documents\GitHub\Ex-VoiceCon\VCTUtility\VCTUtility\bin\Debug\net50\ref\VCTUtility.dll
+C:\Users\Marku\OneDrive\Documents\GitHub\Ex-VoiceCon\VCTUtility\VCTUtility\bin\Debug\net50\VCTUtility.pdb
+C:\Users\Marku\OneDrive\Documents\GitHub\Ex-VoiceCon\VCTUtility\VCTUtility\obj\Debug\net50\VCTUtility.csproj.AssemblyReference.cache
+C:\Users\Marku\OneDrive\Documents\GitHub\Ex-VoiceCon\VCTUtility\VCTUtility\obj\Debug\net50\VCTUtility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marku\OneDrive\Documents\GitHub\Ex-VoiceCon\VCTUtility\VCTUtility\obj\Debug\net50\VCTUtility.AssemblyInfoInputs.cache
+C:\Users\Marku\OneDrive\Documents\GitHub\Ex-VoiceCon\VCTUtility\VCTUtility\obj\Debug\net50\VCTUtility.AssemblyInfo.cs
+C:\Users\Marku\OneDrive\Documents\GitHub\Ex-VoiceCon\VCTUtility\VCTUtility\obj\Debug\net50\VCTUtility.csproj.CoreCompileInputs.cache
+C:\Users\Marku\OneDrive\Documents\GitHub\Ex-VoiceCon\VCTUtility\VCTUtility\obj\Debug\net50\VCTUtility.dll
+C:\Users\Marku\OneDrive\Documents\GitHub\Ex-VoiceCon\VCTUtility\VCTUtility\obj\Debug\net50\ref\VCTUtility.dll
+C:\Users\Marku\OneDrive\Documents\GitHub\Ex-VoiceCon\VCTUtility\VCTUtility\obj\Debug\net50\VCTUtility.pdb

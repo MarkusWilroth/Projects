@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ANN-Test": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\Marku\\OneDrive\\Documents\\GitHub\\Ex-VoiceCon\\ANN-Test\\ANN-Test\\bin\\Debug\\netcoreapp3.1"
+    }
+  }
+}

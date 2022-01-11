@@ -1,0 +1,5 @@
+C:\Users\Marku\OneDrive\Documents\GitHub\Ex-VoiceCon\VCTUtility\VCTUtility\obj\Debug\net47\VCTUtility.csproj.AssemblyReference.cache
+C:\Users\Marku\OneDrive\Documents\GitHub\Ex-VoiceCon\VCTUtility\VCTUtility\obj\Debug\net47\VCTUtility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marku\OneDrive\Documents\GitHub\Ex-VoiceCon\VCTUtility\VCTUtility\obj\Debug\net47\VCTUtility.AssemblyInfoInputs.cache
+C:\Users\Marku\OneDrive\Documents\GitHub\Ex-VoiceCon\VCTUtility\VCTUtility\obj\Debug\net47\VCTUtility.AssemblyInfo.cs
+C:\Users\Marku\OneDrive\Documents\GitHub\Ex-VoiceCon\VCTUtility\VCTUtility\obj\Debug\net47\VCTUtility.csproj.CoreCompileInputs.cache

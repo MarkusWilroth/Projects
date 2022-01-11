@@ -1,0 +1,128 @@
+﻿<Window x:Class="ANN_Test.CreateCommandWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ANN_Test"
+        mc:Ignorable="d"
+        Title="CreateCommand" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Border x:Name="Background" Height="450"  Width="800" Margin="0,0,0,0" BorderThickness="2" BorderBrush="#FF6ABE30" Background="#FF22825B"></Border>
+        <Label x:Name="LblTitle"  Content="Create Command" FontFamily="Times New Roman" FontSize="36" Height="46"  Width="300" Margin="0,-380,0,0" FontWeight="Bold" HorizontalContentAlignment="Center" Foreground="White"/>
+        <TextBox x:Name="TBText"  Margin="-455,-278,0,0" Text="Command Text" TextWrapping="Wrap" Width="145" Height="25" Background="#FF37946E" Foreground="White" FontFamily="Times New Roman" FontSize="15" BorderBrush="#FF6ABE30" BorderThickness="2,2,2,2" HorizontalContentAlignment="Center" VerticalContentAlignment="Stretch"/>
+        <TextBox x:Name="TBCommand"  Margin="0,-287,0,0" Text="Command Name" TextWrapping="Wrap" Width="206" Height="35" Background="#FF37946E" Foreground="White" FontFamily="Times New Roman" FontSize="20" BorderBrush="#FF6ABE30" BorderThickness="2,2,2,2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold"/>
+        <TextBox x:Name="TBTag" Margin="455,-278,0,0" Text="Command Tag" TextWrapping="Wrap" Width="145" Height="25" Background="#FF37946E" Foreground="White" FontFamily="Times New Roman" FontSize="15" BorderBrush="#FF6ABE30" BorderThickness="2,2,2,2" HorizontalContentAlignment="Center" VerticalContentAlignment="Stretch"/>
+        <Border BorderThickness="2,2,2,2" BorderBrush="#FF6ABE30"  Width="600" Height="310"  Margin="0,55,0,0" Background="#FF37946E"/>
+        <Button Content="Return" Margin="-700,380,0,0" Width="70" Height="30" FontFamily="Times New Roman" FontSize="20" Foreground="White" BorderThickness="2,2,2,2" BorderBrush="#FF6ABE30" Background="#FF37946E" Click="BtnReturn_Click"/>
+        <ScrollBar x:Name="Scroller" Height="310" Width="10" Margin="640,55,0,0" Visibility="Hidden" BorderBrush="#FF6ABE30" Background="#FF37946E"  LargeChange="0.1" BorderThickness="2,2,2,2" ValueChanged="Scroller_ValueChanged"/>
+        
+        <StackPanel x:Name="VDHolder" Margin="0,55,0,0" Width="600" Height="305">
+            <StackPanel x:Name="VD1"></StackPanel>
+            <StackPanel x:Name="VD2"></StackPanel>
+            <StackPanel x:Name="VD3"></StackPanel>
+            <StackPanel x:Name="VD4"></StackPanel>
+            <StackPanel x:Name="VD5"></StackPanel>
+            <StackPanel x:Name="VD6"></StackPanel>
+            <StackPanel x:Name="VD7"></StackPanel>
+            <StackPanel x:Name="VD8"></StackPanel>
+            <StackPanel x:Name="VD9"></StackPanel>
+            <StackPanel x:Name="VD10"></StackPanel>
+        </StackPanel>
+
+        <StackPanel x:Name="RecHolder" Margin="0,55,0,0" Width="600" Height="305">
+            <StackPanel x:Name="Rec1"></StackPanel>
+            <StackPanel x:Name="Rec2"></StackPanel>
+            <StackPanel x:Name="Rec3"></StackPanel>
+            <StackPanel x:Name="Rec4"></StackPanel>
+            <StackPanel x:Name="Rec5"></StackPanel>
+            <StackPanel x:Name="Rec6"></StackPanel>
+            <StackPanel x:Name="Rec7"></StackPanel>
+            <StackPanel x:Name="Rec8"></StackPanel>
+            <StackPanel x:Name="Rec9"></StackPanel>
+            <StackPanel x:Name="Rec10"></StackPanel>
+            <StackPanel x:Name="Rec11"></StackPanel>
+            <StackPanel x:Name="Rec12"></StackPanel>
+            <StackPanel x:Name="Rec13"></StackPanel>
+            <StackPanel x:Name="Rec14"></StackPanel>
+            <StackPanel x:Name="Rec15"></StackPanel>
+            <StackPanel x:Name="Rec16"></StackPanel>
+            <StackPanel x:Name="Rec17"></StackPanel>
+            <StackPanel x:Name="Rec18"></StackPanel>
+            <StackPanel x:Name="Rec19"></StackPanel>
+            <StackPanel x:Name="Rec20"></StackPanel>
+        </StackPanel>
+
+        <StackPanel x:Name="CreateVD" Margin="0,55,0,0" Width="600" Height="305" Visibility="Visible">
+            <Button x:Name="BtnCreateVD" Content="Press To Add New VoiceData" Width="580" Height="40" FontFamily="Times New Roman" FontSize="25" BorderBrush="#FF6ABE30" Background="#FF51A482" BorderThickness="2,2,2,2" FontWeight="Bold" Foreground="White" Click="BtnCreateVD_Click"/>
+        </StackPanel>
+
+        <StackPanel x:Name="CreateRec" Margin="0,55,0,0" Width="600" Height="305" >
+            <Button x:Name="BtnCreateRec" Margin="0,60,0,0" Width="400" Height="20" Content="Press To Start Recording" FontFamily="Times New Roman" FontSize="15" Foreground="White" BorderBrush="#FF6ABE30" Background="#FF51A482" BorderThickness="2,0,2,2" Click="BtnCreateRec_Click" Visibility="Hidden"/>
+        </StackPanel>
+
+        <StackPanel x:Name="VoiceData" Margin="0,45,0,0" Width="600" Height="310" Visibility="Hidden">
+            <StackPanel x:Name="StackCreateNewVoiceDataOLD" Margin="0,15,0,0">
+                <Button Content="Press To Add New VoiceData" Width="580" Height="40" FontFamily="Times New Roman" FontSize="25" BorderBrush="#FF6ABE30" Background="#FF51A482" BorderThickness="2,2,2,2" FontWeight="Bold" Foreground="White"/>
+            </StackPanel>
+
+            <StackPanel x:Name="VoiceData1" Margin="0,-40,0,0" Visibility="Hidden">
+                <Border BorderBrush="#FF6ABE30" Background="#FF51A482" BorderThickness="2,2,2,2" Height="40" Width="580"/>
+                <Label x:Name="VD1Nr" Content="1" FontFamily="Times New Roman" FontSize="25" Width="35" Margin="-530,-40,0,0" Foreground="White" FontWeight="Bold"/>
+                <TextBox x:Name="VD1Speaker" Text="Speaker Name" FontFamily="Times New Roman" FontSize="20" Width="250" Height="32"  Margin="-260,-40,0,0" Background="#FF7EBDA3" BorderBrush="#FF6ABE30" BorderThickness="2,2,2,2" SelectionTextBrush="White" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Border Width="200" Height="32" Margin="220,-40,0,0" BorderBrush="#FF6ABE30" Background="#FF7EBDA3" BorderThickness="2,2,2,2"/>
+                <Label x:Name="LbVD1Comp" Margin="220,-40,0,0" Width="180" Height="32" Content="99/99 Completed" FontFamily="Times New Roman" FontSize="20" Foreground="White" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                <Button x:Name="BtVD1Expand" Margin="500,-40,0,0" Width="50" Height="32" Content="v" FontFamily="Times New Roman" FontSize="20" Foreground="White" BorderBrush="#FF6ABE30" Background="#FF7EBDA3" BorderThickness="2,2,2,2"/>
+            </StackPanel>
+            <StackPanel x:Name="VoiceData2" Margin="0,20,0,0" Visibility="Hidden">
+                <Border BorderBrush="#FF6ABE30" Background="#FF51A482" BorderThickness="2,2,2,2" Height="40" Width="580"/>
+                <Label x:Name="VD2Nr" Content="2" FontFamily="Times New Roman" FontSize="25" Width="35" Margin="-530,-40,0,0" Foreground="White" FontWeight="Bold"/>
+                <TextBox x:Name="VD2Speaker" Text="Speaker Name" FontFamily="Times New Roman" FontSize="20" Width="250" Height="32"  Margin="-260,-40,0,0" Background="#FF7EBDA3" BorderBrush="#FF6ABE30" BorderThickness="2,2,2,2" SelectionTextBrush="White" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Border Width="200" Height="32" Margin="220,-40,0,0" BorderBrush="#FF6ABE30" Background="#FF7EBDA3" BorderThickness="2,2,2,2"/>
+                <Label x:Name="LbVD2Comp" Margin="220,-40,0,0" Width="180" Height="32" Content="99/99 Completed" FontFamily="Times New Roman" FontSize="20" Foreground="White" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                <Button x:Name="BtVD2Expand" Margin="500,-40,0,0" Width="50" Height="32" Content="v" FontFamily="Times New Roman" FontSize="20" Foreground="White" BorderBrush="#FF6ABE30" Background="#FF7EBDA3" BorderThickness="2,2,2,2"/>
+            </StackPanel>
+            <StackPanel x:Name="VoiceData3" Margin="0,20,0,0" Visibility="Hidden">
+                <Border BorderBrush="#FF6ABE30" Background="#FF51A482" BorderThickness="2,2,2,2" Height="40" Width="580"/>
+                <Label x:Name="VD3Nr" Content="3" FontFamily="Times New Roman" FontSize="25" Width="35" Margin="-530,-40,0,0" Foreground="White" FontWeight="Bold"/>
+                <TextBox x:Name="VD3Speaker" Text="Speaker Name" FontFamily="Times New Roman" FontSize="20" Width="250" Height="32"  Margin="-260,-40,0,0" Background="#FF7EBDA3" BorderBrush="#FF6ABE30" BorderThickness="2,2,2,2" SelectionTextBrush="White" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Border Width="200" Height="32" Margin="220,-40,0,0" BorderBrush="#FF6ABE30" Background="#FF7EBDA3" BorderThickness="2,2,2,2"/>
+                <Label x:Name="LbVD3Comp" Margin="220,-40,0,0" Width="180" Height="32" Content="99/99 Completed" FontFamily="Times New Roman" FontSize="20" Foreground="White" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                <Button x:Name="BtVD3Expand" Margin="500,-40,0,0" Width="50" Height="32" Content="v" FontFamily="Times New Roman" FontSize="20" Foreground="White" BorderBrush="#FF6ABE30" Background="#FF7EBDA3" BorderThickness="2,2,2,2"/>
+            </StackPanel>
+            <StackPanel x:Name="VoiceData4" Margin="0,20,0,0" Visibility="Hidden">
+                <Border BorderBrush="#FF6ABE30" Background="#FF51A482" BorderThickness="2,2,2,2" Height="40" Width="580"/>
+                <Label x:Name="VD4Nr" Content="4" FontFamily="Times New Roman" FontSize="25" Width="35" Margin="-530,-40,0,0" Foreground="White" FontWeight="Bold"/>
+                <TextBox x:Name="VD4Speaker" Text="Speaker Name" FontFamily="Times New Roman" FontSize="20" Width="250" Height="32"  Margin="-260,-40,0,0" Background="#FF7EBDA3" BorderBrush="#FF6ABE30" BorderThickness="2,2,2,2" SelectionTextBrush="White" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Border Width="200" Height="32" Margin="220,-40,0,0" BorderBrush="#FF6ABE30" Background="#FF7EBDA3" BorderThickness="2,2,2,2"/>
+                <Label x:Name="LbVD4Comp" Margin="220,-40,0,0" Width="180" Height="32" Content="99/99 Completed" FontFamily="Times New Roman" FontSize="20" Foreground="White" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                <Button x:Name="BtVD4Expand" Margin="500,-40,0,0" Width="50" Height="32" Content="v" FontFamily="Times New Roman" FontSize="20" Foreground="White" BorderBrush="#FF6ABE30" Background="#FF7EBDA3" BorderThickness="2,2,2,2"/>
+            </StackPanel>
+            <StackPanel x:Name="VoiceData5" Margin="0,20,0,0" Visibility="Hidden">
+                <Border BorderBrush="#FF6ABE30" Background="#FF51A482" BorderThickness="2,2,2,2" Height="40" Width="580"/>
+                <Label x:Name="VD5Nr" Content="5" FontFamily="Times New Roman" FontSize="25" Width="35" Margin="-530,-40,0,0" Foreground="White" FontWeight="Bold"/>
+                <TextBox x:Name="VD5Speaker" Text="Speaker Name" FontFamily="Times New Roman" FontSize="20" Width="250" Height="32"  Margin="-260,-40,0,0" Background="#FF7EBDA3" BorderBrush="#FF6ABE30" BorderThickness="2,2,2,2" SelectionTextBrush="White" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Border Width="200" Height="32" Margin="220,-40,0,0" BorderBrush="#FF6ABE30" Background="#FF7EBDA3" BorderThickness="2,2,2,2"/>
+                <Label x:Name="LbVD5Comp" Margin="220,-40,0,0" Width="180" Height="32" Content="99/99 Completed" FontFamily="Times New Roman" FontSize="20" Foreground="White" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                <Button x:Name="BtVD5Expand" Margin="500,-40,0,0" Width="50" Height="32" Content="v" FontFamily="Times New Roman" FontSize="20" Foreground="White" BorderBrush="#FF6ABE30" Background="#FF7EBDA3" BorderThickness="2,2,2,2"/>
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel x:Name="RecData" Margin="0,95,0,0" Width="580" Height="250">
+            <StackPanel x:Name="CreateRecData" Margin="0,0,0,0" Visibility="Hidden">
+                <Button x:Name="BtnCreateRecOLDs" Width="400" Height="20" Content="Press To Start Recording" FontFamily="Times New Roman" FontSize="15" Foreground="White" BorderBrush="#FF6ABE30" Background="#FF51A482" BorderThickness="2,0,2,2"/>
+            </StackPanel>
+            <StackPanel x:Name="OLD1" Margin="0,-20,0,0"  Visibility="Hidden">
+                <Border BorderBrush="#FF6ABE30" Background="#FF51A482" BorderThickness="2,0,2,2" Width="400" Height="20"/>
+                <Label Margin="-370,-22,0,0" Content="99" FontFamily="Times New Roman" FontSize="15" Foreground="White" Width="24" Height="15" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="0,0,0,0"/>
+                <Button x:Name="BtnPlay1" Margin="-100,-22,0,0" Content="Play Recording" FontFamily="Times New Roman" FontSize="12" Foreground="White" Width="110" Height="15" Padding="1,-1,1,0" VerticalContentAlignment="Center"  BorderBrush="#FF6ABE30" Background="#FF51A482" BorderThickness="1,1,1,1"/>
+                <Button x:Name="BtnDel1" Margin="200,-22,0,0" Content="Delete Recording" FontFamily="Times New Roman" FontSize="12" Foreground="White" Width="110" Height="15" Padding="1,-1,1,0" VerticalContentAlignment="Center"  BorderBrush="#FF6ABE30" Background="#FF51A482" BorderThickness="1,1,1,1"/>
+            </StackPanel>
+            
+        </StackPanel>
+        
+    </Grid>
+</Window>

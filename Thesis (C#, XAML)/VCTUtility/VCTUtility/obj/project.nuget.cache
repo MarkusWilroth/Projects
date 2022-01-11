@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "gyg3RSpPY3X4UB1Wyjkozg68lSM9SN5PysoFV/s6Us3WFTdEcIFOQoCGF3wLR8sHeywdmbDAXOtn/762b5F7fw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Marku\\OneDrive\\Documents\\GitHub\\Ex-VoiceCon\\VCTUtility\\VCTUtility\\VCTUtility.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Marku\\.nuget\\packages\\mathnet.numerics\\4.15.0\\mathnet.numerics.4.15.0.nupkg.sha512",
+    "C:\\Users\\Marku\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Marku\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.2\\microsoft.netframework.referenceassemblies.1.0.2.nupkg.sha512",
+    "C:\\Users\\Marku\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
